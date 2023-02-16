@@ -1,0 +1,11 @@
+{
+  "name": "week7",
+  "version": "1.0.0",
+  "description": "A simple node.js server setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karl Boehringer",
+  "license": "ISC"
+}
