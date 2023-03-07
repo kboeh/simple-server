@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
     let tableData = "<table border='1'><tr><th>Name</th><th>Height</th><th>Birth Year</th><th>Gender</th><th>URL</th></tr>"
 
     if (url === '/') {
-        res.write("<h1>HI</h1>");
+        res.write("<h1>Welcome</h1>");
         res.end(`<img src="https://dummyimage.com/600x400/000/fff&text=Home">`);
     }
    
